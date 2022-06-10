@@ -19,7 +19,7 @@ echo '<input type="text" name="login">';
 echo '<input type="submit" name="zaloguj">';
 echo '</form>';
 
-
+-------------------------------------------
 function zadanie($tab)
 {
     foreach ($tab as $g){
@@ -32,7 +32,7 @@ function zadanie($tab)
 }
     $a = [5, 4, 6, 8, 9];
     zadanie($a);
-
+------------------------
 
 $dane = [
     ["Pierwszy  produkt", "100", "200"],
@@ -43,7 +43,7 @@ $dane = [
 
 print_r($dane[$_GET['produkt']]);
 
-
+--------------------------------------------------
 function zadanie($n) {
     $g=1;
 for ($i=0;$i<$n;$i++){
@@ -58,7 +58,7 @@ for ($i=0;$i<$n;$i++){
 }
 zadanie(4);
 
-
+----------------------
 function zadanie($n)
 {
     echo '<table>';
@@ -71,56 +71,57 @@ for ($i=1;$i<=$n;$i++){
 }
 zadanie(3);
 ?>
-
+-----------------------------------------------------------------
 <?php
 $a = 1;
 echo $a++;
 echo $a;
 
 wynik:12
-
+-------------------------------------------
 for($i=1;$i<10;$i++){
     if ($i%4 == 0) break;
     echo $i;
 }
 
 wynik:123
-
+--------------------------------------
 Zmniejsza zminną$a o 1 a następnie ją zwraca:
 
 $a = 5;
 --$a;
 echo $a;
 
+-------------------------------------
 $a = 1;
 echo ++$a;
 echo $a;
 
 wynik:22
-
+-------------------------------------------
 echo'Ala';
 $x="Ala"; echo$x;
 $x="Ala"; echo'$x'; //ten nie zadziała
 echo "Ala";
-
+-------------------------------------
 fopen uchwyt do pliku$
-
+--------------------------
 $a = [1,2,3];
 foreach ($a as $v)
     echo $v;
 
 wynik: 123
-
+----------------------------------------
 sprawdzenie czy dana zmienna ma ustawioną wartość php
 wyniK: isset();
 
-
+-------------------------------------------
 $a = [1,2,3,4];
 echo array_pop($a);
 
 wynik: 4
 
-
+--------------------------------
 
 session_start();
 
